@@ -1,0 +1,47 @@
+@import 'react-redux-toastr/src/styles/index';
+@import 'styles/include/_variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  margin-top: $margin-xl-vertical;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gutter-width;
+  padding-right: $gutter-width;
+
+  @media (min-width: $screen-xs-min) {
+    width: 310px;
+  }
+  @media (min-width: $screen-sm-min) {
+    width: 750px;
+  }
+  @media (min-width: $screen-md-min) {
+    width: 970px;
+  }
+
+  .card {
+    padding: $padding-lg-vertical $padding-lg-horizontal;
+    text-align: center;
+
+    & > div {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-content {
+      padding: 16px;
+
+      .radio-group,
+      .card-text {
+        margin-bottom: $margin-lg-vertical;
+      }
+    }
+  }
+}

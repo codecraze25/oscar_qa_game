@@ -1,0 +1,17 @@
+@import 'styles/include/_variables.scss';
+
+.result {
+  .card {
+    .card-content {
+      .list {
+        .list-item {
+          text-align: left;
+
+          h4 {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

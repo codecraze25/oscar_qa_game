@@ -1,0 +1,20 @@
+@import 'styles/include/_variables.scss';
+
+.game {
+  .card {
+    .card-content {
+      .answer-selection {
+        .answer-selection-group {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          .select-yes,
+          .select-no {
+            width: auto !important;
+          }
+        }
+      }
+    }
+  }
+}
